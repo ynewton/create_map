@@ -1,0 +1,9 @@
+python /hexagram/.calc/layout.py \
+    --genomic /usr/local/mRNA_test.tab \
+    --metric "correlation" \
+    --names "Test" \
+    --scores /usr/local/test_attributes.tab \
+    --directory /usr/local/map/ \
+    --truncation_edges 6 \
+    --include-singletons \
+    &> paper.log &

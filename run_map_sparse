@@ -1,0 +1,8 @@
+python /hexagram/.calc/layout.py \
+    --similarity /usr/local/layout.mRNA.tab \
+    --names "Test" \
+    --scores /usr/local/test_attributes.tab \
+    --directory /usr/local/map/ \
+    --truncation_edges 6 \
+    --include-singletons \
+    &> paper.log &
